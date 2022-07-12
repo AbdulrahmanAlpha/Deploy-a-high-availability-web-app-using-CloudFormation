@@ -292,7 +292,6 @@ Resources:
                     aws s3 cp s3://udacity-demo-1/udacity.zip .
                     unzip -o udacity.zip
             ImageId: ami-0729e439b6769d6ab
-            KeyName: vockey
             IamInstanceProfile: !Ref ProfileWithRolesForOurApp
             SecurityGroups:
             -   Ref: WebServerSecGroup
