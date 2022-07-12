@@ -1,0 +1,30 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdagramProject"
+    },
+    {
+        "ParameterKey": "myVpc",
+        "ParameterValue": "10.0.0.0/16"
+    },
+    {
+        "ParameterKey": "myPrivateSubnet1",
+        "ParameterValue": "10.0.2.0/24"
+    },
+    {
+        "ParameterKey": "myPrivateSubnet2",
+        "ParameterValue": "10.0.3.0/24"
+    },
+    {
+        "ParameterKey": "myPublicSubnet1",
+        "ParameterValue": "10.0.0.0/24"
+    },
+    {
+        "ParameterKey": "myPublicSubnet2",
+        "ParameterValue": "10.0.1.0/24"
+    },
+    {
+        "ParameterKey": "InstanceType",
+        "ParameterValue": "t3.micro"
+    }
+]
